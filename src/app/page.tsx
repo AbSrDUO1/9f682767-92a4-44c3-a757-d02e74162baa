@@ -1,4 +1,4 @@
-use client
+"use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
 import NavbarBase from '@/components/navigation/NavbarBase';
 import SplitHero from '@/components/sections/layouts/hero/SplitHero';
@@ -14,7 +14,6 @@ export default function Home() {
         <NavbarBase 
           logoSrc="/images/logo.svg"
           logoAlt="Xeven Logo"
-          logoText="Xeven"
           leftButtonText="Menu"
           rightButtonText="Contact"
           onLeftButtonClick={() => console.log('Menu Clicked')}
