@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'highlight' }}>
       <div id="nav" data-section="nav">
-        <NavbarBase 
+        <NavbarBase
           logoSrc="/images/logo.svg"
           logoAlt="Xeven Logo"
           leftButtonText="Menu"
@@ -22,7 +22,7 @@ export default function Home() {
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
-        <SplitHero 
+        <SplitHero
           title="Welcome to Xeven"
           subtitle="Empower your business with our innovative SaaS solutions."
           primaryButtonText="Get started"
@@ -67,6 +67,7 @@ export default function Home() {
           logoSrc="/images/logowhite.svg"
           logoAlt="Xeven"
           logoText="Xeven"
+          className="bg-gray-900 text-white p-5"
           columns={[
             { title: "Links", items: [
               { label: "Home", onClick: () => console.log('Home') },
@@ -81,7 +82,6 @@ export default function Home() {
           ]}
           copyrightText="© 2023 Xeven. All rights reserved."
           onPrivacyClick={() => console.log('Privacy Policy Clicked')}
-          className="bg-gray-900 text-white p-5"
         />
       </div>
     </SiteThemeProvider>
