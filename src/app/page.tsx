@@ -58,7 +58,7 @@ export default function Home() {
           cardItems={[
             { id: 1, title: "Supply", description: "1,000,000 XEVEN tokens available." },
             { id: 2, title: "Market Cap", description: "$1,000,000." },
-            { id: 3, title: "Circulating Supply", description: "500,000 XEVEN tokens in circulation." },
+            { id: 3, title: "Circulating Supply", description: "500,000 XEVEN tokens in circulation." }
           ]}
         />
       </div>
